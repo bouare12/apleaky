@@ -1,0 +1,53 @@
+    
+.row{
+
+	.header{
+		position: relative;
+
+		.container{
+
+			.nav-right{
+				background: #8A2BE2;
+
+				.nav.clk {
+					display: block;
+					width: 45px;
+					height: 45px;
+					background: url('../img/burger.png') 10px 15px no-repeat;
+					content: "";
+					cursor: pointer;
+					float: right;
+					position: relative;
+					top: -7px;
+
+				}
+
+				ul{
+					display: none;
+				}
+
+				.logo{
+					display: inline-block;
+
+					img{
+						width: 100px;
+
+					}
+
+					li{
+						margin-top: 5px;
+						display: inline-block;
+						float: right;
+						margin-left: 30px;
+
+						a{
+							text-decoration: none;
+							color: white;
+							font-size: 10px;
+						}
+					}
+				}
+			}
+		}	
+	}
+}
