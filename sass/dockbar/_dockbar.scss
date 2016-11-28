@@ -1,53 +1,109 @@
     
 .row{
 
-	.header{
-		position: relative;
+	.header {
+		
+		.container {
 
-		.container{
-
-			.nav-right{
+			.dockbar {
+				width: 100%;
+				height-min: 300px;
 				background: #8A2BE2;
 
-				.nav.clk {
-					display: block;
-					width: 45px;
-					height: 45px;
-					background: url('../img/burger.png') 10px 15px no-repeat;
-					content: "";
-					cursor: pointer;
+				.dockbar-rigth {
 					float: right;
-					position: relative;
-					top: -7px;
+					margin-top: -10px;
 
-				}
-
-				ul{
-					display: none;
-				}
-
-				.logo{
-					display: inline-block;
-
-					img{
-						width: 100px;
+					.nav.clk {
+						display: inline-block;
+						float: right;
+						width: 45px;
+						height: 45px;
+						background: url('../img/burger.png') 10px 15px no-repeat;
+						content: "";
+						cursor: pointer;
 
 					}
 
-					li{
-						margin-top: 5px;
+					.list {
 						display: inline-block;
-						float: right;
-						margin-left: 30px;
 
-						a{
-							text-decoration: none;
-							color: white;
-							font-size: 10px;
+						ul {
+							display: inline-block;
+							margin-right: 20px;
+							list-style-type: none;
+
+							li {
+								float: left;
+								margin-left: 15px;
+
+								a {
+									color: white;
+									text-decoration: none;
+								}
+							}	
 						}
+					}	
+				}
+
+				.logo-icon {
+					overflow : hidden;
+					height: 30px;
+
+					img {
+						height: 60px;
+						border: 0px;
 					}
 				}
 			}
-		}	
+
+			.sous-nav {
+				margin-top: 0px;
+
+				ul {
+					margin-top: 0px;
+					list-style-type: none;
+					padding-left: 0px;
+
+					.active{
+						background: #8A2BE2;
+					}
+
+					li {
+						margin: 0px;
+						border: 1px solid;
+						border-left: 0px;
+						border-right: 0px;
+						border-top: 0px;
+						padding: 10px;
+
+						a {
+							text-decoration: none;
+							margin-bottom: 20px;
+							
+						}
+
+						ul {
+							margin-top: 20px;
+							display: none;
+							padding-left: 20px;
+							background-color: #8A2BE2;
+
+							li{
+								border: none;
+								padding: 0px;
+								margin-bottom: 5px;
+								margin-top: 5px;
+
+								a {
+
+								}
+							}
+						}
+						
+					}
+				}
+			}
+		}		
 	}
 }
