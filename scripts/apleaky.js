@@ -1,4 +1,9 @@
 var NAV = {
+    $('.nav.clk').click(function(){
+        $('.sous-nav').toggle();
+    });
+
+
     toggleActive: function (li) {
         $(li).toggleClass('active');
     },
