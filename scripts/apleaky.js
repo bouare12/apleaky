@@ -1,9 +1,5 @@
 var NAV = {
-    $('.nav.clk').click(function(){
-        $('.sous-nav').toggle();
-    });
-
-
+    
     toggleActive: function (li) {
         $(li).toggleClass('active');
     },
@@ -32,4 +28,11 @@ var NAV = {
 }
 
 NAV.init();
+
+$('.sous-nav').hide();
+
+$('.nav.clk').click(function(){
+    $('.sous-nav').toggle();
+});
+
 
