@@ -1,0 +1,24 @@
+.pricing-header {
+	display: inline-block;
+	margin: 0px;
+	border: 1px solid #6495ED;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	padding: 10px; 
+	width: 300px;
+
+	img{
+		margin-bottom: -5px;
+	}	
+}
+
+.pricing-contenu {
+	background: url('../img/background.png');
+	text-align: center;
+	
+	img{
+		width: 250px;
+		margin-top: 20px;
+	}
+}

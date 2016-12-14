@@ -22,17 +22,18 @@ var NAV = {
         });
     },
 
+    subnav: function () {
+        $('.sous-nav').hide();
+
+        $('.nav.clk').click(function(){
+            $('.sous-nav').toggle();
+        });
+    },
+
     init: function () {
         NAV.attachEvents($('nav'));
+        NAV.subnav();
     }
 }
 
 NAV.init();
-
-$('.sous-nav').hide();
-
-$('.nav.clk').click(function(){
-    $('.sous-nav').toggle();
-});
-
-

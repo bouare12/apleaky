@@ -1,0 +1,74 @@
+.header-contact{
+	display: inline-block;
+	margin: 0px;
+	border: 1px solid #6495ED;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	padding: 10px; 
+	width: 300px;	
+}
+
+.contenu-us{
+	margin-top: 60px;
+
+	ul{
+		list-style-type: none;
+
+		li{
+			margin-top: 30px;
+			font-size: 10px;
+
+			span{
+				margin-left: 20px;
+			}
+
+			img{
+				width: 20px;
+			}
+		}
+
+		.contact-form{
+			margin-top: 20px;
+			
+			input{
+				margin: 0px;
+				border: 1px solid;
+				border-left: 0px;
+				border-right: 0px;
+				border-top: 0px;
+				padding: 10px; 
+			}
+		}
+	}
+}
+
+.traitbloc{
+
+	.trait{
+		border-top: 1px solid #6495ED;
+		width : 70px;
+		display: inline-block;
+	}
+
+	h2{
+		display: inline-block;
+		margin-right: 20px;
+		margin-left: 20px;
+		color: #6495ED;
+	}
+}
+
+.contenu-office{
+	font-size: 10px;
+	margin-left: 30px;
+
+	h3{
+		color: #6495ED;
+		margin-bottom: 10px;
+	}
+
+	span{
+
+	}
+}
