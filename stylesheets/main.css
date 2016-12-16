@@ -340,32 +340,37 @@
   margin-left: -10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: #6495ED;
 }
-/* line 48, ../sass/resource/_resource.scss */
+/* line 49, ../sass/resource/_resource.scss */
 .resource-contenu .dash p {
   font-size: 12px;
 }
-/* line 52, ../sass/resource/_resource.scss */
+/* line 53, ../sass/resource/_resource.scss */
 .resource-contenu .dash ul {
   padding-left: 10px;
 }
-/* line 55, ../sass/resource/_resource.scss */
+/* line 56, ../sass/resource/_resource.scss */
 .resource-contenu .dash ul li {
   font-size: 12px;
 }
 
-/* line 64, ../sass/resource/_resource.scss */
+/* line 65, ../sass/resource/_resource.scss */
 .compagny h3 {
   font-size: 13px;
+  color: #6495ED;
 }
-/* line 69, ../sass/resource/_resource.scss */
-.compagny ol li {
+/* line 71, ../sass/resource/_resource.scss */
+.compagny ul li {
   font-size: 12px;
   margin: 5px;
+  margin-bottom: 30px;
 }
-/* line 73, ../sass/resource/_resource.scss */
-.compagny ol li span {
-  width: 3px;
-  border-right: 2px solid blue;
+/* line 76, ../sass/resource/_resource.scss */
+.compagny ul li span {
+  border-right: 3px solid blue;
   height: 3px;
+  padding-right: 5px;
+  margin-right: 5px;
+  padding: 5px;
 }
