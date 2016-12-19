@@ -360,17 +360,106 @@
   font-size: 13px;
   color: #6495ED;
 }
-/* line 71, ../sass/resource/_resource.scss */
+/* line 70, ../sass/resource/_resource.scss */
+.compagny ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+/* line 74, ../sass/resource/_resource.scss */
 .compagny ul li {
   font-size: 12px;
   margin: 5px;
   margin-bottom: 30px;
 }
-/* line 76, ../sass/resource/_resource.scss */
+/* line 79, ../sass/resource/_resource.scss */
 .compagny ul li span {
   border-right: 3px solid blue;
   height: 3px;
   padding-right: 5px;
   margin-right: 5px;
   padding: 5px;
+}
+
+@media screen and (width: 980px) {
+  /* line 3, ../sass/contactustab/_contactustab.scss */
+  .header-contact {
+    display: inline-block;
+    margin: 0px;
+    border: 2px solid #6495ED;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding: 10px;
+    width: 950px;
+  }
+
+  /* line 14, ../sass/contactustab/_contactustab.scss */
+  .contenu-us {
+    margin-top: 60px;
+  }
+  /* line 17, ../sass/contactustab/_contactustab.scss */
+  .contenu-us ul {
+    list-style-type: none;
+    width: 400px;
+    float: left;
+  }
+  /* line 22, ../sass/contactustab/_contactustab.scss */
+  .contenu-us ul li {
+    margin-top: 30px;
+    font-size: 10px;
+  }
+  /* line 26, ../sass/contactustab/_contactustab.scss */
+  .contenu-us ul li span {
+    margin-left: 20px;
+  }
+  /* line 30, ../sass/contactustab/_contactustab.scss */
+  .contenu-us ul li img {
+    width: 20px;
+  }
+  /* line 35, ../sass/contactustab/_contactustab.scss */
+  .contenu-us .contact-form {
+    margin-top: 20px;
+    width: 400px;
+    display: inline-block;
+  }
+  /* line 40, ../sass/contactustab/_contactustab.scss */
+  .contenu-us .contact-form input {
+    margin: 0px;
+    border: 1px solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+  }
+
+  /* line 54, ../sass/contactustab/_contactustab.scss */
+  .traitbloc {
+    margin-top: 20px;
+  }
+  /* line 56, ../sass/contactustab/_contactustab.scss */
+  .traitbloc .trait {
+    border-top: 1px solid #6495ED;
+    width: 70px;
+    display: inline-block;
+  }
+  /* line 62, ../sass/contactustab/_contactustab.scss */
+  .traitbloc h2 {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #6495ED;
+  }
+
+  /* line 70, ../sass/contactustab/_contactustab.scss */
+  .contenu-office {
+    font-size: 10px;
+    margin-left: 30px;
+  }
+  /* line 74, ../sass/contactustab/_contactustab.scss */
+  .contenu-office h3 {
+    color: #6495ED;
+    margin-bottom: 10px;
+  }
 }
