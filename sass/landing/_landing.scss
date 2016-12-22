@@ -1,0 +1,50 @@
+.landing-contenu{
+
+	.first-part {
+		padding-top: 20px;
+		background-image: url('../img/Quaterly.png');
+		text-align: center;
+		background-color: InactiveBorder;
+
+		.titre{
+			font-size: 15px;
+			margin-bottom: 40px;
+			color: white;
+			a{
+				text-decoration: none;
+			}
+		}
+
+		p{
+			font-size: 13px;
+			margin-bottom: 30px;
+			color: white;
+		}
+
+		.signe {
+			background: #6495ED;
+			color: white;
+			border-radius: 10px;
+			padding: 5px;
+			margin-bottom: 10px;
+		}
+
+		.watch {
+			border-radius: 10px;
+			padding: 5px;
+			background: transparent;
+		}
+
+		.btn-scroll{
+			margin-top: 15px;
+			width: 20px;
+			border-radius: 50px;
+			background: ButtonHighlight;
+			padding: 5px;
+			margin-left: 150px;
+			img {
+				width: 20px;
+			}
+		}
+	}
+}

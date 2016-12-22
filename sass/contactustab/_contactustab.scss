@@ -1,14 +1,14 @@
 @media screen and (width: 980px) {
 
 	.header-contact	{
-	display: inline-block;
-	margin: 0px;
-	border: 2px solid #6495ED;
-	border-left: 0px;
-	border-right: 0px;
-	border-top: 0px;
-	padding: 10px; 
-	width: 950px;	
+		display: inline-block;
+		margin: 0px;
+		border: 2px solid #6495ED;
+		border-left: 0px;
+		border-right: 0px;
+		border-top: 0px;
+		padding: 10px; 
+		width: 950px;	
 	}
 
 	.contenu-us {
@@ -32,30 +32,33 @@
 				}
 			}
 		}
-			.contact-form{
-				margin-top: 20px;
-				width: 400px;
-				display: inline-block;
+		.contact-form{
+			margin-top: 20px;
+			width: 400px;
+			display: inline;
 
-				input{
-					margin: 0px;
-					border: 1px solid;
-					border-left: 0px;
-					border-right: 0px;
-					border-top: 0px;
-					padding: 10px; 
-					padding-bottom: 5px;
-					padding-left: 0px;
-				}
+			input{
+				margin: 0px;
+				border: 2px solid;
+				border-left: 0px;
+				border-right: 0px;
+				border-top: 0px;
+				padding: 10px; 
+				padding-bottom: 5px;
+				padding-left: 0px;
+				padding-top: 30px;
+				margin-right: 15px;
 			}
+		}
 		
 	}
 
 	.traitbloc{
-		margin-top: 20px;
+		margin-top: 30px;
+
 		.trait{
-			border-top: 1px solid #6495ED;
-			width : 70px;
+			border-top: 2px solid #6495ED;
+			width: 400px;
 			display: inline-block;
 		}
 
@@ -70,14 +73,18 @@
 	.contenu-office{
 		font-size: 10px;
 		margin-left: 30px;
+		//display: inline-block;
 
 		h3{
 			color: #6495ED;
 			margin-bottom: 10px;
+			//width: 300px;
+			//display: inline-block;
 		}
 
-		span{
-
+		p{
+			width: 150px;
+			//display: inline-block;
 		}
 	}
 }

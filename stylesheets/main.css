@@ -196,26 +196,27 @@
 /* line 15, ../sass/contactus/_contactus.scss */
 .contenu-us ul {
   list-style-type: none;
+  padding-left: 30px;
 }
-/* line 18, ../sass/contactus/_contactus.scss */
+/* line 19, ../sass/contactus/_contactus.scss */
 .contenu-us ul li {
   margin-top: 30px;
   font-size: 10px;
 }
-/* line 22, ../sass/contactus/_contactus.scss */
+/* line 23, ../sass/contactus/_contactus.scss */
 .contenu-us ul li span {
   margin-left: 20px;
 }
-/* line 26, ../sass/contactus/_contactus.scss */
+/* line 27, ../sass/contactus/_contactus.scss */
 .contenu-us ul li img {
   width: 20px;
 }
-/* line 31, ../sass/contactus/_contactus.scss */
-.contenu-us ul .contact-form {
+/* line 33, ../sass/contactus/_contactus.scss */
+.contenu-us .contact-form {
   margin-top: 20px;
 }
-/* line 34, ../sass/contactus/_contactus.scss */
-.contenu-us ul .contact-form input {
+/* line 36, ../sass/contactus/_contactus.scss */
+.contenu-us .contact-form input {
   margin: 0px;
   border: 1px solid;
   border-left: 0px;
@@ -224,13 +225,13 @@
   padding: 10px;
 }
 
-/* line 48, ../sass/contactus/_contactus.scss */
+/* line 49, ../sass/contactus/_contactus.scss */
 .traitbloc .trait {
   border-top: 1px solid #6495ED;
   width: 70px;
   display: inline-block;
 }
-/* line 54, ../sass/contactus/_contactus.scss */
+/* line 55, ../sass/contactus/_contactus.scss */
 .traitbloc h2 {
   display: inline-block;
   margin-right: 20px;
@@ -238,15 +239,19 @@
   color: #6495ED;
 }
 
-/* line 62, ../sass/contactus/_contactus.scss */
+/* line 63, ../sass/contactus/_contactus.scss */
 .contenu-office {
   font-size: 10px;
   margin-left: 30px;
 }
-/* line 66, ../sass/contactus/_contactus.scss */
+/* line 67, ../sass/contactus/_contactus.scss */
 .contenu-office h3 {
   color: #6495ED;
   margin-bottom: 10px;
+}
+/* line 72, ../sass/contactus/_contactus.scss */
+.contenu-office p {
+  font-size: 10px;
 }
 
 /* line 1, ../sass/404error/_404error.scss */
@@ -420,31 +425,33 @@
   .contenu-us .contact-form {
     margin-top: 20px;
     width: 400px;
-    display: inline-block;
+    display: inline;
   }
   /* line 40, ../sass/contactustab/_contactustab.scss */
   .contenu-us .contact-form input {
     margin: 0px;
-    border: 1px solid;
+    border: 2px solid;
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
     padding: 10px;
     padding-bottom: 5px;
     padding-left: 0px;
+    padding-top: 30px;
+    margin-right: 15px;
   }
 
-  /* line 54, ../sass/contactustab/_contactustab.scss */
-  .traitbloc {
-    margin-top: 20px;
-  }
   /* line 56, ../sass/contactustab/_contactustab.scss */
+  .traitbloc {
+    margin-top: 30px;
+  }
+  /* line 59, ../sass/contactustab/_contactustab.scss */
   .traitbloc .trait {
-    border-top: 1px solid #6495ED;
-    width: 70px;
+    border-top: 2px solid #6495ED;
+    width: 400px;
     display: inline-block;
   }
-  /* line 62, ../sass/contactustab/_contactustab.scss */
+  /* line 65, ../sass/contactustab/_contactustab.scss */
   .traitbloc h2 {
     display: inline-block;
     margin-right: 20px;
@@ -452,14 +459,68 @@
     color: #6495ED;
   }
 
-  /* line 70, ../sass/contactustab/_contactustab.scss */
+  /* line 73, ../sass/contactustab/_contactustab.scss */
   .contenu-office {
     font-size: 10px;
     margin-left: 30px;
   }
-  /* line 74, ../sass/contactustab/_contactustab.scss */
+  /* line 78, ../sass/contactustab/_contactustab.scss */
   .contenu-office h3 {
     color: #6495ED;
     margin-bottom: 10px;
   }
+  /* line 85, ../sass/contactustab/_contactustab.scss */
+  .contenu-office p {
+    width: 150px;
+  }
+}
+/* line 3, ../sass/landing/_landing.scss */
+.landing-contenu .first-part {
+  padding-top: 20px;
+  background-image: url("../img/Quaterly.png");
+  text-align: center;
+  background-color: InactiveBorder;
+}
+/* line 9, ../sass/landing/_landing.scss */
+.landing-contenu .first-part .titre {
+  font-size: 15px;
+  margin-bottom: 40px;
+  color: white;
+}
+/* line 13, ../sass/landing/_landing.scss */
+.landing-contenu .first-part .titre a {
+  text-decoration: none;
+}
+/* line 18, ../sass/landing/_landing.scss */
+.landing-contenu .first-part p {
+  font-size: 13px;
+  margin-bottom: 30px;
+  color: white;
+}
+/* line 24, ../sass/landing/_landing.scss */
+.landing-contenu .first-part .signe {
+  background: #6495ED;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+/* line 32, ../sass/landing/_landing.scss */
+.landing-contenu .first-part .watch {
+  border-radius: 10px;
+  padding: 5px;
+  background: transparent;
+}
+/* line 38, ../sass/landing/_landing.scss */
+.landing-contenu .first-part .btn-scroll {
+  margin-top: 15px;
+  width: 20px;
+  border-radius: 50px;
+  background: ButtonHighlight;
+  padding: 5px;
+  margin-left: 150px;
+}
+/* line 45, ../sass/landing/_landing.scss */
+.landing-contenu .first-part .btn-scroll img {
+  width: 20px;
 }
