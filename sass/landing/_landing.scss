@@ -1,4 +1,4 @@
-.landing-contenu{
+.landing-contenu {
 
 	.first-part {
 		padding-top: 20px;
@@ -6,10 +6,11 @@
 		text-align: center;
 		background-color: InactiveBorder;
 
-		.titre{
+		.titre {
 			font-size: 15px;
 			margin-bottom: 40px;
 			color: white;
+
 			a{
 				text-decoration: none;
 			}
@@ -35,13 +36,14 @@
 			background: transparent;
 		}
 
-		.btn-scroll{
+		.btn-scroll {
 			margin-top: 15px;
 			width: 20px;
 			border-radius: 50px;
 			background: ButtonHighlight;
 			padding: 5px;
 			margin-left: 150px;
+
 			img {
 				width: 20px;
 			}
