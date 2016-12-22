@@ -1,9 +1,9 @@
 .landing-contenu {
+	text-align: center;
 
 	.first-part {
 		padding-top: 20px;
 		background-image: url('../img/Quaterly.png');
-		text-align: center;
 		background-color: InactiveBorder;
 
 		.titre {
@@ -46,6 +46,66 @@
 
 			img {
 				width: 20px;
+			}
+		}
+	}
+
+	.service{
+
+		.module-first {
+			width: 70px;
+			height:	70px;
+			border: 1px solid black;
+			border-radius: 50px;
+			margin-left: 120px;
+			margin-top: 20px;
+
+			img {
+				width: 50px;
+				padding-top: 10px;
+
+			}
+		}
+
+		h3{
+			color: #6495ED;
+			font-size: 14px;
+		}
+
+		p{
+			font-size: 12px;
+		}
+	}
+}
+
+
+.tendance {
+	margin-top: 20px;
+	background: #6495ED;
+	.fond {
+		background: url('../img/Quaterly.png') no-repeat top left;
+		position:relative;
+		width:300px;
+		height:200px;
+		z-index:1;
+		text-align: center;
+		margin-bottom: 20px;
+		
+		.contenu{
+			position:relative;
+			top:0;
+			left:0;
+			z-index:10;
+			padding: 40px;
+
+			h3{
+				font-size: 14px;
+				color: white;
+			}
+
+			p{
+				font-size: 12px;
+				color: white;
 			}
 		}
 	}

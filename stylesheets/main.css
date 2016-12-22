@@ -474,11 +474,14 @@
     width: 150px;
   }
 }
-/* line 3, ../sass/landing/_landing.scss */
+/* line 1, ../sass/landing/_landing.scss */
+.landing-contenu {
+  text-align: center;
+}
+/* line 4, ../sass/landing/_landing.scss */
 .landing-contenu .first-part {
   padding-top: 20px;
   background-image: url("../img/Quaterly.png");
-  text-align: center;
   background-color: InactiveBorder;
 }
 /* line 9, ../sass/landing/_landing.scss */
@@ -487,17 +490,17 @@
   margin-bottom: 40px;
   color: white;
 }
-/* line 13, ../sass/landing/_landing.scss */
+/* line 14, ../sass/landing/_landing.scss */
 .landing-contenu .first-part .titre a {
   text-decoration: none;
 }
-/* line 18, ../sass/landing/_landing.scss */
+/* line 19, ../sass/landing/_landing.scss */
 .landing-contenu .first-part p {
   font-size: 13px;
   margin-bottom: 30px;
   color: white;
 }
-/* line 24, ../sass/landing/_landing.scss */
+/* line 25, ../sass/landing/_landing.scss */
 .landing-contenu .first-part .signe {
   background: #6495ED;
   color: white;
@@ -505,13 +508,13 @@
   padding: 5px;
   margin-bottom: 10px;
 }
-/* line 32, ../sass/landing/_landing.scss */
+/* line 33, ../sass/landing/_landing.scss */
 .landing-contenu .first-part .watch {
   border-radius: 10px;
   padding: 5px;
   background: transparent;
 }
-/* line 38, ../sass/landing/_landing.scss */
+/* line 39, ../sass/landing/_landing.scss */
 .landing-contenu .first-part .btn-scroll {
   margin-top: 15px;
   width: 20px;
@@ -520,7 +523,64 @@
   padding: 5px;
   margin-left: 150px;
 }
-/* line 45, ../sass/landing/_landing.scss */
+/* line 47, ../sass/landing/_landing.scss */
 .landing-contenu .first-part .btn-scroll img {
   width: 20px;
+}
+/* line 55, ../sass/landing/_landing.scss */
+.landing-contenu .service .module-first {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+/* line 63, ../sass/landing/_landing.scss */
+.landing-contenu .service .module-first img {
+  width: 50px;
+  padding-top: 10px;
+}
+/* line 70, ../sass/landing/_landing.scss */
+.landing-contenu .service h3 {
+  color: #6495ED;
+  font-size: 14px;
+}
+/* line 75, ../sass/landing/_landing.scss */
+.landing-contenu .service p {
+  font-size: 12px;
+}
+
+/* line 82, ../sass/landing/_landing.scss */
+.tendance {
+  margin-top: 20px;
+  background: #6495ED;
+}
+/* line 85, ../sass/landing/_landing.scss */
+.tendance .fond {
+  background: url("../img/Quaterly.png") no-repeat top left;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  z-index: 1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 94, ../sass/landing/_landing.scss */
+.tendance .fond .contenu {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 40px;
+}
+/* line 101, ../sass/landing/_landing.scss */
+.tendance .fond .contenu h3 {
+  font-size: 14px;
+  color: white;
+}
+/* line 106, ../sass/landing/_landing.scss */
+.tendance .fond .contenu p {
+  font-size: 12px;
+  color: white;
 }
