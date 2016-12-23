@@ -1,0 +1,23 @@
+.dash-contenu{
+	text-align: center;
+
+	h3{
+		font-size: 15px;
+	}
+
+	.sum{
+
+		p{
+			font-size: 8px;
+			display: inline-block;
+			width: 60px;
+		}
+
+		.trait{
+			display: inline-block;
+			border-left: 1px solid;
+			width: 5px;
+			height: 20px;
+		}
+	}
+}
