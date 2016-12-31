@@ -20,4 +20,125 @@
 			height: 20px;
 		}
 	}
+
+	.traitHori{
+		border-top: 1px solid;
+		width: 300px;
+		height: 5px;
+	}
+
+	.Quickacces{
+
+		h3{
+			text-align: left;
+		}
+
+		.invoices{ 
+			background: #3CB371; 
+			width: 300px;
+
+			.module-first {
+				width: 70px;
+				height:	70px;
+				border: 1px solid black;
+				border-radius: 50px;
+				float: left;
+				background: white;
+				margin-top: 10px;
+				margin-left: 20px;
+				margin-bottom: 10px;
+
+				img {
+					width: 50px;
+					padding-top: 10px;
+
+				}
+			}
+
+			.indice-nb{
+				padding-top: 10px;
+				float: right;
+
+				p{
+					color: white;
+					margin-top: 0px;
+				}
+			}
+
+			.Pfooter{
+				color: white;
+				margin-top: 0px;
+				text-align: left;
+				width: 110px;
+			}
+		}
+
+		.evoCA{
+
+			img{
+				width: 300px;
+				height: 200px;
+			}
+		}
+
+		.customers {
+			width: 300px;
+
+			.titre{
+				background: red;
+				padding-bottom: 3px;
+				border: none;
+				color: white;
+
+				.first {
+					padding-top: 10px;
+				}
+
+				.last {
+					padding-top: 10px;
+				}
+			}
+
+			li {
+				list-style-type: none;
+				border-top: 1px solid;
+
+				.first {
+					font-size: 10px;
+					float: left;
+					padding-bottom: 0px;
+					margin-top: 0px;
+					padding-bottom: 0px;
+				}
+
+				.last {
+
+					font-size: 10px; 
+					padding-bottom: 0px;
+					margin-top: 0px;
+				}
+			}
+		}
+
+		.setproduct{
+			margin-top: 20px;
+			text-align: left;
+
+			ul{
+				padding-left: 0px;
+
+				li{
+					list-style-type: none;
+					margin-bottom: 20px;
+					font-size: 13px;
+				}
+
+				.bestset{
+					background: #6B8E23;
+					padding: 7px;
+					color: white;
+				}
+			}
+		}
+	}
 }

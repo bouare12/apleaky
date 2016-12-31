@@ -1,19 +1,21 @@
-.footer{
+.footer {
 	background: #6495ED;
 	color: white;
+	padding: 10px;
+	margin-top: 20px;
 
-	.prefooter{
+	.prefooter {
 
-		ul{
+		ul {
 			list-style-type: none;
 			padding-left: 0px;
 			margin-bottom: 0px;
 
-			li{
+			li {
 				font-size: 10px;
 				padding-bottom: 10px;
 
-				a{
+				a {
 					text-decoration: none;
 					color: white;
 				}
@@ -25,21 +27,20 @@
 			}
 		}
 
-		.icon-social{
+		.icon-social {
 			text-align: center;
 			margin-top: 0px;
 
-			li{
+			li { 
 				display: inline-block;
 				padding-bottom: 0px;
 			}
 		}
 
-		.line-horizontal{
+		.line-horizontal {
 			border-top: 1px solid #FFFFFF;
-			width: 250px;
+			width: 300px;
 			display: inline-block;
-			margin-left: 20px;
 		}
 	}
 
@@ -48,18 +49,26 @@
 
 		ul{
 			list-style-type: none;
-			font-size: 7px;
+			font-size: 6px;
 			padding-left: 0px;
 
-			li{
+			li {
 				display: inline-block;
+				border-right: 1px solid white;
+				padding-right: 8px;
+				margin-right: 8px;
 
-				a{
+				&:last-child {
+					border: none;
+				}
+
+				&:first-child {
+					border: none;
+				}
+
+				a {
 					text-decoration: none;
 					color: white;
-					width:	3px;
-	    			border-right: 1px solid #FFFFFF;
-	    			height: 7px;
 				}
 			}
 		}
