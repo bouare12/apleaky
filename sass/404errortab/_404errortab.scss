@@ -1,0 +1,212 @@
+@media screen and (min-width: 330px) and (max-width: 980px) {
+
+	.row {
+
+		.header {
+
+			.container {
+
+				.dockbar {
+					width: 100%;
+					height-min: 300px;
+					background: #8A2BE2;
+					padding-bottom: 5px;
+
+					.menu {
+						background: #9400D3;
+						padding-top: 5px;
+						padding-bottom: 5px;
+						display: inline-block;
+
+					ul {
+						width: 370px;
+						padding-left: 0px;
+						margin: 0px;
+						font-size: 12px;
+						display: inline-block;
+
+						li {
+							display: inline-block;
+							margin-left: 10px;
+
+							a {
+								text-decoration: none;
+								color: white;
+							}
+
+							img {
+								width: 10px;
+								margin-left: 10px;
+							}
+						}
+
+						.menu-right{
+							
+						}
+					}
+				}
+
+				.dockbar-rigth {
+					float: right;
+					margin-top: -10px;
+
+					.list {
+						display: inline-block;
+						margin-top: 0px;
+						margin-right: 0px;
+
+						ul {
+							display: inline-block;
+								margin-right: 20px;
+								list-style-type: none;
+
+								li {
+									float: left;
+									margin-left: 15px;
+									padding-top: 0px;
+
+									a {
+										color: white;
+										text-decoration: none;
+									}
+								}
+
+								.btn-login {
+									background: #1E90FF;
+									padding: 10px;
+									padding-right: 13px;
+									padding-bottom: 5px;
+									padding-top: 5px;
+
+
+								}
+
+								.bnt-sign {
+									background: #2E8B57;
+									margin-left: 0px;
+									padding: 10px;
+									padding-bottom: 5px;
+									padding-top: 5px;
+								}
+
+								.menu-right	{
+									//float: right;
+									
+									img	{
+										width: 10px;
+										margin-left: 5px;
+									}
+
+									.nav.clk {
+										display: inline-block;
+										float: right;
+										width: 45px;
+										height: 45px;
+										background: url('../img/burger.png') 10px 15px no-repeat;
+										content: "";
+										cursor: pointer;
+									}
+								}
+
+							}
+						}	
+					}
+
+					.logo-icon {
+						overflow : hidden;
+						height: 30px;
+
+						img {
+							height: 60px;
+							border: 0px;
+						}
+					}
+				}
+
+				.sous-nav {
+					margin-top: 0px;
+
+					ul {
+						margin-top: 0px;
+						list-style-type: none;
+						padding-left: 0px;
+
+						.active{
+							background: #8A2BE2;
+							color: black;
+
+							a{
+								color: white;
+							}
+
+							img{
+								transition:transform .6s;
+								transform:rotate(540deg);
+							}
+						}
+
+						li {
+							margin: 0px;
+							border: 1px solid;
+							border-left: 0px;
+							border-right: 0px;
+							border-top: 0px;
+							padding: 10px; 
+
+							a {
+								text-decoration: none;
+								margin-bottom: 20px;
+
+							}
+
+							img{
+								float: right;
+								width: 15px;
+							}
+
+							ul {
+								margin-top: 20px;
+								display: none;
+								padding-left: 20px;
+								background-color: #8A2BE2;
+
+								li{
+									border: none;
+									padding: 0px;
+									margin-bottom: 5px;
+									margin-top: 5px;
+								}
+							}
+
+						}
+					}
+				}
+
+				.error {
+					text-align: center;
+					margin-top: 200px;
+					margin-bottom: 150px;
+					background: red;
+
+					img	{
+						height: 70px;
+						float: left;
+						margin-left: 10px;
+					}
+
+					span {
+						font-size: 10px;
+					}
+
+					h3 {
+						font-size: 10px;
+					}
+
+					h2 {
+						font-size: 10px;
+					}
+				}
+			}
+		}
+	}
+}

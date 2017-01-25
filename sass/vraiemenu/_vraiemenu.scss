@@ -1,0 +1,168 @@
+body{
+	margin: 0px;
+}
+
+.row{
+
+	.header {
+		
+		.container {
+			
+			.dockbar {
+				width: 100%;
+				height-min: 300px;
+				background: #8A2BE2;
+				padding-bottom: 30px;
+				background: blue;
+
+				.menu{
+					background: #9400D3;
+					padding-top: 5px;
+					padding-bottom: 5px;
+					display: inline-block;
+
+					ul{
+						width: 370px;
+						padding-left: 0px;
+						margin: 0px;
+						font-size: 12px;
+						display: inline-block;
+
+						li{
+							display: inline-block;
+							margin-left: 10px;
+							padding-bottom: 2px;
+
+							a{
+								text-decoration: none;
+								color: white;
+							}
+
+							img{
+								width: 10px;
+								margin-left: 10px;
+							}
+						}
+					}
+				}
+
+				.dockbar-rigth {
+					float: right;
+					margin: 0px;
+
+					.list {
+						display: inline-block;
+						//margin-top: 5px;
+						//margin-right: 10px;
+
+							ul {
+								display: inline-block;
+								margin-right: 20px;
+								list-style-type: none;
+								padding-left: 0px;
+								margin: 0px;
+
+								li {
+									float: left;
+									padding-top: 5px;
+									a {
+										color: white;
+										text-decoration: none;
+										font-size: 13px;
+									}
+
+									img{
+										width: 13px;
+									}
+								}	
+							}
+						}	
+					}
+
+					.logo-icon {
+						overflow : hidden;
+						height: 30px;
+						float: left;
+
+						img {
+							height: 60px;
+							border: 0px;
+						}
+
+
+						.nav.clk {
+							width: 45px;
+							height: 45px;
+							background: url('../img/burger.png') 10px 7px no-repeat;
+							content: "";
+							float: right;
+						}
+					}
+				}
+
+				.sous-nav {
+					margin-top: 0px;
+
+					ul {
+						margin-top: 0px;
+						//list-style-type: none;
+						padding-left: 0px;
+
+						.active{
+							background: #8A2BE2;
+							color: black;
+
+							a{
+								color: white;
+							}
+
+							img{
+								transition:transform .6s;
+								transform:rotate(540deg);
+							}
+						}
+
+						li {
+							margin: 0px;
+							border: 1px solid;
+							border-left: 0px;
+							border-right: 0px;
+							border-top: 0px;
+							padding: 10px; 
+
+							a {
+								text-decoration: none;
+								margin-bottom: 20px;
+
+							}
+
+							img{
+								float: right;
+								width: 15px;
+							}
+
+							ul {
+								margin-top: 20px;
+								display: none;
+								padding-left: 20px;
+								background-color: #8A2BE2;
+
+								li{
+									border: none;
+									padding: 0px;
+									margin-bottom: 5px;
+									margin-top: 5px;
+								}
+							}
+
+						}
+					}
+				}	
+			}		
+		}
+	}
+	
+@media screen and (min-width: 330px) and (max-width: 980px) {
+
+
+}

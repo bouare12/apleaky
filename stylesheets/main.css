@@ -21,7 +21,7 @@ body {
   float: right;
   width: 45px;
   height: 45px;
-  background: url("../img/burger.png") 10px 15px no-repeat;
+  background: url("../img/burger.png") 10px 7px no-repeat;
   content: "";
   cursor: pointer;
 }
@@ -58,11 +58,11 @@ body {
 /* line 63, ../sass/dockbar/_dockbar.scss */
 .row .header .container .sous-nav {
   margin-top: 0px;
+  background: red;
 }
 /* line 66, ../sass/dockbar/_dockbar.scss */
 .row .header .container .sous-nav ul {
   margin-top: 0px;
-  list-style-type: none;
   padding-left: 0px;
 }
 /* line 71, ../sass/dockbar/_dockbar.scss */
@@ -203,37 +203,42 @@ body {
   padding: 10px;
   width: 300px;
 }
+/* line 11, ../sass/contactus/_contactus.scss */
+.header-contact img {
+  margin-bottom: -6px;
+}
 
-/* line 12, ../sass/contactus/_contactus.scss */
+/* line 16, ../sass/contactus/_contactus.scss */
 .contenu-us {
   margin-top: 60px;
 }
-/* line 15, ../sass/contactus/_contactus.scss */
+/* line 19, ../sass/contactus/_contactus.scss */
 .contenu-us ul {
   list-style-type: none;
 }
-/* line 18, ../sass/contactus/_contactus.scss */
+/* line 22, ../sass/contactus/_contactus.scss */
 .contenu-us ul li {
   margin-top: 30px;
   font-size: 10px;
 }
-/* line 22, ../sass/contactus/_contactus.scss */
+/* line 26, ../sass/contactus/_contactus.scss */
 .contenu-us ul li p {
   margin-left: 20px;
   display: inline-block;
   margin-top: -20px;
   margin-right: 20px;
+  text-align: left;
 }
-/* line 29, ../sass/contactus/_contactus.scss */
+/* line 34, ../sass/contactus/_contactus.scss */
 .contenu-us ul li img {
   width: 20px;
 }
-/* line 35, ../sass/contactus/_contactus.scss */
+/* line 40, ../sass/contactus/_contactus.scss */
 .contenu-us .contact-form {
   margin-top: 15px;
   text-align: center;
 }
-/* line 39, ../sass/contactus/_contactus.scss */
+/* line 44, ../sass/contactus/_contactus.scss */
 .contenu-us .contact-form input {
   margin: 0px;
   border: 1px solid;
@@ -246,14 +251,44 @@ body {
   margin-top: 20px;
 }
 
-/* line 55, ../sass/contactus/_contactus.scss */
+/* line 58, ../sass/contactus/_contactus.scss */
+.control-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+/* line 62, ../sass/contactus/_contactus.scss */
+.control-btn .btn-map {
+  border: 1px solid #7CFC00;
+  padding: 5px;
+  font-size: 10px;
+  margin-right: 10px;
+  color: #7CFC00;
+  border-left: 1px;
+}
+/* line 70, ../sass/contactus/_contactus.scss */
+.control-btn .btn-map img {
+  width: 10px;
+  margin-right: 5px;
+  margin-bottom: -2px;
+}
+/* line 77, ../sass/contactus/_contactus.scss */
+.control-btn .btn-send {
+  font-size: 10px;
+  border: 1px solid;
+  padding: 5px;
+  background: #6495ED;
+  color: white;
+}
+
+/* line 88, ../sass/contactus/_contactus.scss */
 .traitbloc .trait {
   border-top: 1px solid #6495ED;
   width: 80px;
   display: inline-block;
+  margin-bottom: 6px;
 }
 
-/* line 62, ../sass/contactus/_contactus.scss */
+/* line 96, ../sass/contactus/_contactus.scss */
 h2 {
   display: inline-block;
   margin-right: 15px;
@@ -261,19 +296,23 @@ h2 {
   color: #6495ED;
 }
 
-/* line 69, ../sass/contactus/_contactus.scss */
+/* line 103, ../sass/contactus/_contactus.scss */
 .contenu-office {
   font-size: 10px;
   margin-left: 30px;
 }
-/* line 73, ../sass/contactus/_contactus.scss */
+/* line 107, ../sass/contactus/_contactus.scss */
 .contenu-office h3 {
   color: #6495ED;
   margin-bottom: 10px;
+  margin-bottom: 0px;
 }
-/* line 78, ../sass/contactus/_contactus.scss */
+/* line 113, ../sass/contactus/_contactus.scss */
 .contenu-office p {
   font-size: 10px;
+  margin-top: 0px;
+  text-align: left;
+  width: 220px;
 }
 
 /* line 1, ../sass/404error/_404error.scss */
@@ -328,27 +367,35 @@ h2 {
   margin-top: 20px;
 }
 
-/* line 5, ../sass/resource/_resource.scss */
+/* line 3, ../sass/resource/_resource.scss */
+.resource-contenu .Overview {
+  margin-left: 12px;
+}
+/* line 6, ../sass/resource/_resource.scss */
 .resource-contenu .Overview h3 {
   color: #6495ED;
+  margin-bottom: 5px;
 }
-/* line 9, ../sass/resource/_resource.scss */
-.resource-contenu .Overview h4 {
+/* line 11, ../sass/resource/_resource.scss */
+.resource-contenu .Overview p {
   font-size: 13px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-/* line 13, ../sass/resource/_resource.scss */
+/* line 18, ../sass/resource/_resource.scss */
 .resource-contenu .Overview h5 {
   margin-bottom: 10px;
 }
-/* line 17, ../sass/resource/_resource.scss */
+/* line 22, ../sass/resource/_resource.scss */
 .resource-contenu .Overview p {
   font-size: 12px;
 }
-/* line 20, ../sass/resource/_resource.scss */
+/* line 25, ../sass/resource/_resource.scss */
 .resource-contenu .Overview p a {
   text-decoration: none;
 }
-/* line 25, ../sass/resource/_resource.scss */
+/* line 30, ../sass/resource/_resource.scss */
 .resource-contenu .Overview blockquote {
   margin-top: 15px;
   background: #C0C0C0;
@@ -356,49 +403,64 @@ h2 {
   margin: 0px;
   font-size: 12px;
   width: 250px;
+  margin-bottom: 10px;
+}
+/* line 41, ../sass/resource/_resource.scss */
+.resource-contenu .dash {
   margin-left: 12px;
 }
-/* line 38, ../sass/resource/_resource.scss */
+/* line 44, ../sass/resource/_resource.scss */
 .resource-contenu .dash h3 {
   color: #6495ED;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
-/* line 42, ../sass/resource/_resource.scss */
+/* line 50, ../sass/resource/_resource.scss */
 .resource-contenu .dash h5 {
   margin-left: -10px;
   margin-top: 10px;
   margin-bottom: 10px;
   color: #6495ED;
 }
-/* line 49, ../sass/resource/_resource.scss */
+/* line 57, ../sass/resource/_resource.scss */
 .resource-contenu .dash p {
   font-size: 12px;
+  text-align: left;
+  margin-top: 0px;
+  width: 250px;
 }
-/* line 53, ../sass/resource/_resource.scss */
+/* line 64, ../sass/resource/_resource.scss */
 .resource-contenu .dash ul {
   padding-left: 10px;
 }
-/* line 56, ../sass/resource/_resource.scss */
+/* line 67, ../sass/resource/_resource.scss */
 .resource-contenu .dash ul li {
   font-size: 12px;
+  width: 250px;
+  margin-bottom: 5px;
 }
 
-/* line 65, ../sass/resource/_resource.scss */
+/* line 76, ../sass/resource/_resource.scss */
+.compagny {
+  margin-left: 12px;
+}
+/* line 79, ../sass/resource/_resource.scss */
 .compagny h3 {
   font-size: 13px;
   color: #6495ED;
 }
-/* line 70, ../sass/resource/_resource.scss */
+/* line 84, ../sass/resource/_resource.scss */
 .compagny ul {
   padding-left: 0px;
   list-style-type: none;
 }
-/* line 74, ../sass/resource/_resource.scss */
+/* line 88, ../sass/resource/_resource.scss */
 .compagny ul li {
   font-size: 12px;
   margin: 5px;
   margin-bottom: 30px;
 }
-/* line 79, ../sass/resource/_resource.scss */
+/* line 93, ../sass/resource/_resource.scss */
 .compagny ul li span {
   border-right: 3px solid blue;
   height: 3px;
@@ -407,7 +469,7 @@ h2 {
   padding: 5px;
 }
 
-@media screen and (width: 980px) {
+@media screen and (min-width: 330px) and (max-width: 980px) {
   /* line 3, ../sass/contactustab/_contactustab.scss */
   .header-contact {
     display: inline-block;
@@ -443,13 +505,17 @@ h2 {
   .contenu-us ul li img {
     width: 20px;
   }
-  /* line 35, ../sass/contactustab/_contactustab.scss */
+  /* line 34, ../sass/contactustab/_contactustab.scss */
+  .contenu-us ul li p {
+    text-align: left;
+  }
+  /* line 39, ../sass/contactustab/_contactustab.scss */
   .contenu-us .contact-form {
     margin-top: 20px;
     width: 400px;
     display: inline;
   }
-  /* line 40, ../sass/contactustab/_contactustab.scss */
+  /* line 44, ../sass/contactustab/_contactustab.scss */
   .contenu-us .contact-form input {
     margin: 0px;
     border: 2px solid;
@@ -461,39 +527,56 @@ h2 {
     padding-left: 0px;
     padding-top: 30px;
     margin-right: 15px;
+    margin-bottom: 30px;
   }
 
-  /* line 56, ../sass/contactustab/_contactustab.scss */
+  /* line 61, ../sass/contactustab/_contactustab.scss */
   .traitbloc {
     margin-top: 30px;
+    margin-left: 20px;
   }
-  /* line 59, ../sass/contactustab/_contactustab.scss */
+  /* line 65, ../sass/contactustab/_contactustab.scss */
   .traitbloc .trait {
     border-top: 2px solid #6495ED;
     width: 400px;
     display: inline-block;
   }
-  /* line 65, ../sass/contactustab/_contactustab.scss */
+  /* line 71, ../sass/contactustab/_contactustab.scss */
   .traitbloc h2 {
     display: inline-block;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
     color: #6495ED;
   }
 
-  /* line 73, ../sass/contactustab/_contactustab.scss */
+  /* line 79, ../sass/contactustab/_contactustab.scss */
   .contenu-office {
     font-size: 10px;
     margin-left: 30px;
+    text-align: center;
   }
-  /* line 78, ../sass/contactustab/_contactustab.scss */
-  .contenu-office h3 {
+  /* line 84, ../sass/contactustab/_contactustab.scss */
+  .contenu-office .title-text {
+    display: inline-block;
+    margin-right: 40px;
+  }
+  /* line 88, ../sass/contactustab/_contactustab.scss */
+  .contenu-office .title-text h3 {
     color: #6495ED;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    width: 200px;
+    text-align: left;
   }
-  /* line 85, ../sass/contactustab/_contactustab.scss */
-  .contenu-office p {
-    width: 150px;
+  /* line 95, ../sass/contactustab/_contactustab.scss */
+  .contenu-office .title-text p {
+    width: 200px;
+  }
+
+  /* line 105, ../sass/contactustab/_contactustab.scss */
+  .footer .prefooter .line-horizontal {
+    border-top: 1px solid #FFFFFF;
+    width: 940px;
+    display: inline-block;
   }
 }
 /* line 1, ../sass/landing/_landing.scss */
@@ -503,8 +586,20 @@ h2 {
 /* line 4, ../sass/landing/_landing.scss */
 .landing-contenu .first-part {
   padding-top: 20px;
-  background-image: url("../img/Quaterly.png");
+  background: url("../img/Quaterly.png") no-repeat;
   background-color: InactiveBorder;
+  		/*.btn-scroll {
+  			margin-top: 15px;
+  			width: 20px;
+  			border-radius: 50px;
+  			background: ButtonHighlight;
+  			padding: 5px;
+  			margin-left: 150px;
+  
+  			img {
+  				width: 20px;
+  			}
+  		}*/
 }
 /* line 9, ../sass/landing/_landing.scss */
 .landing-contenu .first-part .titre {
@@ -524,33 +619,25 @@ h2 {
   padding: 5px;
 }
 /* line 26, ../sass/landing/_landing.scss */
-.landing-contenu .first-part .signe {
+.landing-contenu .first-part .btn {
+  width: 280px;
+  text-align: center;
+}
+/* line 29, ../sass/landing/_landing.scss */
+.landing-contenu .first-part .btn .signe {
   background: #6495ED;
   color: white;
   border-radius: 10px;
   padding: 5px;
   margin-bottom: 10px;
 }
-/* line 34, ../sass/landing/_landing.scss */
-.landing-contenu .first-part .watch {
+/* line 37, ../sass/landing/_landing.scss */
+.landing-contenu .first-part .btn .watch {
   border-radius: 10px;
   padding: 5px;
   background: transparent;
 }
-/* line 40, ../sass/landing/_landing.scss */
-.landing-contenu .first-part .btn-scroll {
-  margin-top: 15px;
-  width: 20px;
-  border-radius: 50px;
-  background: ButtonHighlight;
-  padding: 5px;
-  margin-left: 150px;
-}
-/* line 48, ../sass/landing/_landing.scss */
-.landing-contenu .first-part .btn-scroll img {
-  width: 20px;
-}
-/* line 56, ../sass/landing/_landing.scss */
+/* line 60, ../sass/landing/_landing.scss */
 .landing-contenu .service .module-first {
   width: 70px;
   height: 70px;
@@ -559,28 +646,28 @@ h2 {
   margin-left: 120px;
   margin-top: 20px;
 }
-/* line 64, ../sass/landing/_landing.scss */
+/* line 68, ../sass/landing/_landing.scss */
 .landing-contenu .service .module-first img {
   width: 50px;
   padding-top: 10px;
 }
-/* line 71, ../sass/landing/_landing.scss */
+/* line 75, ../sass/landing/_landing.scss */
 .landing-contenu .service h3 {
   color: #6495ED;
   font-size: 14px;
 }
-/* line 76, ../sass/landing/_landing.scss */
+/* line 80, ../sass/landing/_landing.scss */
 .landing-contenu .service p {
   font-size: 12px;
   padding: 5px;
 }
 
-/* line 83, ../sass/landing/_landing.scss */
+/* line 87, ../sass/landing/_landing.scss */
 .tendance {
   margin-top: 20px;
   background: #6495ED;
 }
-/* line 87, ../sass/landing/_landing.scss */
+/* line 91, ../sass/landing/_landing.scss */
 .tendance .fond {
   background: url("../img/Quaterly.png") no-repeat top left;
   position: relative;
@@ -590,7 +677,7 @@ h2 {
   text-align: center;
   margin-bottom: 20px;
 }
-/* line 96, ../sass/landing/_landing.scss */
+/* line 100, ../sass/landing/_landing.scss */
 .tendance .fond .contenu {
   position: relative;
   top: 0;
@@ -598,53 +685,53 @@ h2 {
   z-index: 10;
   padding: 40px;
 }
-/* line 103, ../sass/landing/_landing.scss */
+/* line 107, ../sass/landing/_landing.scss */
 .tendance .fond .contenu h3 {
   font-size: 14px;
   color: white;
 }
-/* line 108, ../sass/landing/_landing.scss */
+/* line 112, ../sass/landing/_landing.scss */
 .tendance .fond .contenu p {
   font-size: 12px;
   color: white;
   padding: 5px;
 }
 
-/* line 117, ../sass/landing/_landing.scss */
+/* line 121, ../sass/landing/_landing.scss */
 .schema {
   margin-top: 40px;
   text-align: center;
 }
-/* line 121, ../sass/landing/_landing.scss */
+/* line 125, ../sass/landing/_landing.scss */
 .schema h3 {
   font-size: 17px;
 }
-/* line 125, ../sass/landing/_landing.scss */
+/* line 129, ../sass/landing/_landing.scss */
 .schema img {
   width: 300px;
 }
-/* line 129, ../sass/landing/_landing.scss */
+/* line 133, ../sass/landing/_landing.scss */
 .schema p {
   font-size: 13px;
   padding: 5px;
 }
 
-/* line 135, ../sass/landing/_landing.scss */
+/* line 139, ../sass/landing/_landing.scss */
 .process {
   text-align: center;
   padding-top: 10px;
   background: Silver;
 }
-/* line 140, ../sass/landing/_landing.scss */
+/* line 144, ../sass/landing/_landing.scss */
 .process h3 {
   font-size: 17px;
 }
-/* line 144, ../sass/landing/_landing.scss */
+/* line 148, ../sass/landing/_landing.scss */
 .process img {
   width: 300px;
 }
 
-/* line 150, ../sass/landing/_landing.scss */
+/* line 154, ../sass/landing/_landing.scss */
 p {
   padding: 5px;
   margin-top: 20px;
@@ -678,17 +765,24 @@ p {
   border-top: 1px solid;
   width: 300px;
   height: 5px;
+  margin-left: 10px;
 }
-/* line 32, ../sass/dashboard/_dashboard.scss */
+/* line 31, ../sass/dashboard/_dashboard.scss */
+.dash-contenu .Quickacces {
+  text-align: -moz-center;
+}
+/* line 33, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces h3 {
   text-align: left;
+  margin-left: 10px;
 }
-/* line 36, ../sass/dashboard/_dashboard.scss */
+/* line 38, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .invoices {
+  text-align: center;
   background: #3CB371;
   width: 300px;
 }
-/* line 40, ../sass/dashboard/_dashboard.scss */
+/* line 43, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .invoices .module-first {
   width: 70px;
   height: 70px;
@@ -700,58 +794,58 @@ p {
   margin-left: 20px;
   margin-bottom: 10px;
 }
-/* line 51, ../sass/dashboard/_dashboard.scss */
+/* line 54, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .invoices .module-first img {
   width: 50px;
   padding-top: 10px;
 }
-/* line 58, ../sass/dashboard/_dashboard.scss */
+/* line 61, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .invoices .indice-nb {
   padding-top: 10px;
   float: right;
 }
-/* line 62, ../sass/dashboard/_dashboard.scss */
+/* line 65, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .invoices .indice-nb p {
   color: white;
   margin-top: 0px;
 }
-/* line 68, ../sass/dashboard/_dashboard.scss */
+/* line 71, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .invoices .Pfooter {
   color: white;
   margin-top: 0px;
   text-align: left;
   width: 110px;
 }
-/* line 78, ../sass/dashboard/_dashboard.scss */
+/* line 81, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .evoCA img {
   width: 300px;
   height: 200px;
 }
-/* line 84, ../sass/dashboard/_dashboard.scss */
+/* line 87, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .customers {
   width: 300px;
 }
-/* line 87, ../sass/dashboard/_dashboard.scss */
+/* line 90, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .customers .titre {
   background: red;
   padding-bottom: 3px;
   border: none;
   color: white;
 }
-/* line 93, ../sass/dashboard/_dashboard.scss */
+/* line 96, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .customers .titre .first {
   padding-top: 10px;
 }
-/* line 97, ../sass/dashboard/_dashboard.scss */
+/* line 100, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .customers .titre .last {
   padding-top: 10px;
 }
-/* line 102, ../sass/dashboard/_dashboard.scss */
+/* line 105, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .customers li {
   list-style-type: none;
   border-top: 1px solid;
 }
-/* line 106, ../sass/dashboard/_dashboard.scss */
+/* line 109, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .customers li .first {
   font-size: 10px;
   float: left;
@@ -759,28 +853,30 @@ p {
   margin-top: 0px;
   padding-bottom: 0px;
 }
-/* line 114, ../sass/dashboard/_dashboard.scss */
+/* line 117, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .customers li .last {
   font-size: 10px;
   padding-bottom: 0px;
   margin-top: 0px;
 }
-/* line 123, ../sass/dashboard/_dashboard.scss */
+/* line 126, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .setproduct {
   margin-top: 20px;
   text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-/* line 127, ../sass/dashboard/_dashboard.scss */
+/* line 132, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .setproduct ul {
   padding-left: 0px;
 }
-/* line 130, ../sass/dashboard/_dashboard.scss */
+/* line 135, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .setproduct ul li {
   list-style-type: none;
   margin-bottom: 20px;
   font-size: 13px;
 }
-/* line 136, ../sass/dashboard/_dashboard.scss */
+/* line 141, ../sass/dashboard/_dashboard.scss */
 .dash-contenu .Quickacces .setproduct ul .bestset {
   background: #6B8E23;
   padding: 7px;
@@ -809,4 +905,606 @@ p {
   height: 30px;
   vertical-align: bottom;
   padding-right: 11px;
+}
+
+@media screen and (min-width: 330px) and (max-width: 980px) {
+  /* line 5, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .first-part {
+    padding-top: 20px;
+    background-image: url("../img/Quaterly.png") no-repeat;
+    background-color: InactiveBorder;
+  }
+  /* line 11, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .first-part .btn {
+    width: 950px;
+  }
+  /* line 14, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .first-part .btn .signe {
+    background: #6495ED;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  /* line 22, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .first-part .btn .watch {
+    border-radius: 10px;
+    padding: 5px;
+    background: transparent;
+    margin-left: 10px;
+  }
+  /* line 30, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .first-part p {
+    width: 700px;
+    padding: 0px;
+    margin-left: 120px;
+  }
+  /* line 39, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .service .sign-service {
+    width: 230px;
+    display: inline-block;
+  }
+  /* line 43, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .service .sign-service .module-first {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  /* line 51, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .service .sign-service .module-first img {
+    width: 50px;
+    padding-top: 10px;
+  }
+  /* line 58, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .service .sign-service h3 {
+    color: #6495ED;
+    font-size: 14px;
+  }
+  /* line 63, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .service .sign-service p {
+    font-size: 12px;
+    padding: 5px;
+  }
+  /* line 70, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .tendance {
+    margin-top: 20px;
+    background: #6495ED;
+  }
+  /* line 74, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .tendance .fond {
+    margin-top: 30px;
+    background: url("../img/Quaterly.png") no-repeat top left;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  /* line 85, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .tendance .fond .contenu {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 40px;
+  }
+  /* line 92, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .tendance .fond .contenu h3 {
+    font-size: 14px;
+    color: white;
+  }
+  /* line 97, ../sass/landingtab/_landingtab.scss */
+  .landing-contenu .tendance .fond .contenu p {
+    font-size: 12px;
+    color: white;
+    padding: 5px;
+  }
+}
+/* line 1, ../sass/modeconnecter/_modeconnecter.scss */
+body {
+  margin: 0px;
+}
+
+/* line 12, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .dockbar {
+  width: 100%;
+  height-min: 300px;
+  background: #8A2BE2;
+}
+/* line 17, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .dockbar .dockbar-rigth {
+  float: right;
+  margin: 0px;
+}
+/* line 22, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .dockbar .dockbar-rigth .list {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 27, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .dockbar .dockbar-rigth .list ul {
+  display: inline-block;
+  margin-right: 20px;
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+/* line 34, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .dockbar .dockbar-rigth .list ul li {
+  float: left;
+}
+/* line 37, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .dockbar .dockbar-rigth .list ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+/* line 43, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .dockbar .dockbar-rigth .list ul li img {
+  width: 13px;
+}
+/* line 51, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .dockbar .logo-icon {
+  overflow: hidden;
+  height: 30px;
+}
+/* line 55, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .dockbar .logo-icon img {
+  height: 60px;
+  border: 0px;
+}
+/* line 62, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .sous-nav {
+  margin-top: 0px;
+  width: 300px;
+  font-size: 12px;
+}
+/* line 67, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .sous-nav img {
+  width: 200px;
+}
+/* line 71, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .sous-nav h3 {
+  font-size: 12px;
+}
+/* line 75, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .sous-nav ul {
+  margin-top: 0px;
+  padding-left: 0px;
+  margin-left: 20px;
+}
+/* line 81, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .sous-nav ul .active {
+  background: #8A2BE2;
+  color: black;
+}
+/* line 85, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .sous-nav ul .active a {
+  color: white;
+}
+/* line 89, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .sous-nav ul .active img {
+  transition: transform .6s;
+  transform: rotate(540deg);
+}
+/* line 95, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .sous-nav ul li {
+  margin: 0px;
+  border: 1px solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  padding: 10px;
+}
+/* line 103, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .sous-nav ul li a {
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+/* line 109, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .sous-nav ul li img {
+  float: right;
+  width: 15px;
+}
+/* line 114, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .sous-nav ul li ul {
+  margin-top: 20px;
+  display: none;
+  padding-left: 20px;
+  background-color: #8A2BE2;
+}
+/* line 120, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .sous-nav ul li ul li {
+  border: none;
+  padding: 0px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+/* line 132, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .menu {
+  background: #9400D3;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 137, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .menu .nav.clk {
+  width: 45px;
+  height: 20px;
+  background: url("../img/burger.png") 10px 1px no-repeat;
+  content: "";
+  float: left;
+}
+/* line 145, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .menu ul {
+  width: 270px;
+  padding-left: 0px;
+  margin: 0px;
+  font-size: 12px;
+  display: inline-block;
+}
+/* line 152, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .menu ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+/* line 156, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* line 161, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .menu ul li img {
+  width: 10px;
+  margin-left: 10px;
+}
+/* line 167, ../sass/modeconnecter/_modeconnecter.scss */
+.row .header .container .menu ul .menu-right {
+  float: right;
+}
+
+@media screen and (min-width: 330px) and (max-width: 980px) {
+  /* line 9, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar {
+    width: 100%;
+    height-min: 300px;
+    background: #8A2BE2;
+    padding-bottom: 5px;
+  }
+  /* line 15, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .menu {
+    background: #9400D3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+  /* line 21, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .menu ul {
+    width: 370px;
+    padding-left: 0px;
+    margin: 0px;
+    font-size: 12px;
+    display: inline-block;
+  }
+  /* line 28, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .menu ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  /* line 32, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .menu ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  /* line 37, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .menu ul li img {
+    width: 10px;
+    margin-left: 10px;
+  }
+  /* line 49, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .dockbar-rigth {
+    float: right;
+    margin-top: -10px;
+  }
+  /* line 53, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .dockbar-rigth .list {
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  /* line 58, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .dockbar-rigth .list ul {
+    display: inline-block;
+    margin-right: 20px;
+    list-style-type: none;
+  }
+  /* line 63, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .dockbar-rigth .list ul li {
+    float: left;
+    margin-left: 15px;
+    padding-top: 0px;
+  }
+  /* line 68, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .dockbar-rigth .list ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  /* line 74, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .dockbar-rigth .list ul .btn-login {
+    background: #1E90FF;
+    padding: 10px;
+    padding-right: 13px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  /* line 84, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .dockbar-rigth .list ul .bnt-sign {
+    background: #2E8B57;
+    margin-left: 0px;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  /* line 95, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .dockbar-rigth .list ul .menu-right img {
+    width: 10px;
+    margin-left: 5px;
+  }
+  /* line 100, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .dockbar-rigth .list ul .menu-right .nav.clk {
+    display: inline-block;
+    float: right;
+    width: 45px;
+    height: 45px;
+    background: url("../img/burger.png") 10px 15px no-repeat;
+    content: "";
+    cursor: pointer;
+  }
+  /* line 115, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .logo-icon {
+    overflow: hidden;
+    height: 30px;
+  }
+  /* line 119, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .dockbar .logo-icon img {
+    height: 60px;
+    border: 0px;
+  }
+  /* line 126, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .sous-nav {
+    margin-top: 0px;
+  }
+  /* line 129, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .sous-nav ul {
+    margin-top: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  /* line 134, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .sous-nav ul .active {
+    background: #8A2BE2;
+    color: black;
+  }
+  /* line 138, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .sous-nav ul .active a {
+    color: white;
+  }
+  /* line 142, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .sous-nav ul .active img {
+    transition: transform .6s;
+    transform: rotate(540deg);
+  }
+  /* line 148, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .sous-nav ul li {
+    margin: 0px;
+    border: 1px solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding: 10px;
+  }
+  /* line 156, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .sous-nav ul li a {
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  /* line 162, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .sous-nav ul li img {
+    float: right;
+    width: 15px;
+  }
+  /* line 167, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .sous-nav ul li ul {
+    margin-top: 20px;
+    display: none;
+    padding-left: 20px;
+    background-color: #8A2BE2;
+  }
+  /* line 173, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .sous-nav ul li ul li {
+    border: none;
+    padding: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  /* line 185, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .error {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    background: red;
+  }
+  /* line 191, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .error img {
+    height: 70px;
+    float: left;
+    margin-left: 10px;
+  }
+  /* line 197, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .error span {
+    font-size: 10px;
+  }
+  /* line 201, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .error h3 {
+    font-size: 10px;
+  }
+  /* line 205, ../sass/404errortab/_404errortab.scss */
+  .row .header .container .error h2 {
+    font-size: 10px;
+  }
+}
+/* line 1, ../sass/vraiemenu/_vraiemenu.scss */
+body {
+  margin: 0px;
+}
+
+/* line 11, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar {
+  width: 100%;
+  height-min: 300px;
+  background: #8A2BE2;
+  padding-bottom: 30px;
+  background: blue;
+}
+/* line 18, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .menu {
+  background: #9400D3;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+/* line 24, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .menu ul {
+  width: 370px;
+  padding-left: 0px;
+  margin: 0px;
+  font-size: 12px;
+  display: inline-block;
+}
+/* line 31, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .menu ul li {
+  display: inline-block;
+  margin-left: 10px;
+  padding-bottom: 2px;
+}
+/* line 36, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* line 41, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .menu ul li img {
+  width: 10px;
+  margin-left: 10px;
+}
+/* line 49, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .dockbar-rigth {
+  float: right;
+  margin: 0px;
+}
+/* line 53, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .dockbar-rigth .list {
+  display: inline-block;
+}
+/* line 58, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .dockbar-rigth .list ul {
+  display: inline-block;
+  margin-right: 20px;
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+/* line 65, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .dockbar-rigth .list ul li {
+  float: left;
+  padding-top: 5px;
+}
+/* line 68, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .dockbar-rigth .list ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+/* line 74, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .dockbar-rigth .list ul li img {
+  width: 13px;
+}
+/* line 82, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .logo-icon {
+  overflow: hidden;
+  height: 30px;
+  float: left;
+}
+/* line 87, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .logo-icon img {
+  height: 60px;
+  border: 0px;
+}
+/* line 93, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .dockbar .logo-icon .nav.clk {
+  width: 45px;
+  height: 45px;
+  background: url("../img/burger.png") 10px 7px no-repeat;
+  content: "";
+  float: right;
+}
+/* line 103, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .sous-nav {
+  margin-top: 0px;
+}
+/* line 106, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .sous-nav ul {
+  margin-top: 0px;
+  padding-left: 0px;
+}
+/* line 111, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .sous-nav ul .active {
+  background: #8A2BE2;
+  color: black;
+}
+/* line 115, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .sous-nav ul .active a {
+  color: white;
+}
+/* line 119, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .sous-nav ul .active img {
+  transition: transform .6s;
+  transform: rotate(540deg);
+}
+/* line 125, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .sous-nav ul li {
+  margin: 0px;
+  border: 1px solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  padding: 10px;
+}
+/* line 133, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .sous-nav ul li a {
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+/* line 139, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .sous-nav ul li img {
+  float: right;
+  width: 15px;
+}
+/* line 144, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .sous-nav ul li ul {
+  margin-top: 20px;
+  display: none;
+  padding-left: 20px;
+  background-color: #8A2BE2;
+}
+/* line 150, ../sass/vraiemenu/_vraiemenu.scss */
+.row .header .container .sous-nav ul li ul li {
+  border: none;
+  padding: 0px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }

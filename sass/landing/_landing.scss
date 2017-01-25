@@ -3,7 +3,7 @@
 
 	.first-part {
 		padding-top: 20px;
-		background-image: url('../img/Quaterly.png');
+		background: url('../img/Quaterly.png') no-repeat;
 		background-color: InactiveBorder;
 
 		.titre {
@@ -23,21 +23,25 @@
 			padding: 5px;
 		}
 
-		.signe {
-			background: #6495ED;
-			color: white;
-			border-radius: 10px;
-			padding: 5px;
-			margin-bottom: 10px;
+		.btn{
+			width: 280px;
+			text-align: center;
+			.signe {
+				background: #6495ED;
+				color: white;
+				border-radius: 10px;
+				padding: 5px;
+				margin-bottom: 10px;
+			}
+
+			.watch {
+				border-radius: 10px;
+				padding: 5px;
+				background: transparent;
+			}
 		}
 
-		.watch {
-			border-radius: 10px;
-			padding: 5px;
-			background: transparent;
-		}
-
-		.btn-scroll {
+		/*.btn-scroll {
 			margin-top: 15px;
 			width: 20px;
 			border-radius: 50px;
@@ -48,7 +52,7 @@
 			img {
 				width: 20px;
 			}
-		}
+		}*/
 	}
 
 	.service{

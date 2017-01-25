@@ -1,10 +1,10 @@
 body{
-margin: 0px;
+	margin: 0px;
 
 }
 
-.row {
-		
+.row{
+
 	.header {
 		
 		.container {
@@ -16,33 +16,32 @@ margin: 0px;
 
 				.dockbar-rigth {
 					float: right;
-					margin-top: -10px;
+					margin: 0px;
 					
-					.nav.clk {
-						display: inline-block;
-						float: right;
-						width: 45px;
-						height: 45px;
-						background: url('../img/burger.png') 10px 7px no-repeat;
-						content: "";
-						cursor: pointer;
-					}
 
 					.list {
 						display: inline-block;
+						//margin-top: 5px;
+						margin-right: 10px;
 
 						ul {
 							display: inline-block;
 							margin-right: 20px;
 							list-style-type: none;
+							padding-left: 0px;
+							margin: 0px;
 
 							li {
 								float: left;
-								margin-left: 15px;
 
 								a {
 									color: white;
 									text-decoration: none;
+									font-size: 13px;
+								}
+
+								img{
+									width: 13px;
 								}
 							}	
 						}
@@ -62,13 +61,24 @@ margin: 0px;
 
 			.sous-nav {
 				margin-top: 0px;
-				background: red;
-				ul {
-					margin-top: 0px;
-					//list-style-type: none;
-					padding-left: 0px;
+				width: 300px;
+				font-size: 12px;
+				
+					img{
+						width: 200px;	
+					}
 
-					.active{
+					h3{
+						font-size: 12px;
+					}
+
+					ul {
+						margin-top: 0px;
+						//list-style-type: none;
+						padding-left: 0px;
+						margin-left: 20px;
+
+					.active {
 						background: #8A2BE2;
 						color: black;
 
@@ -115,6 +125,47 @@ margin: 0px;
 							}
 						}
 						
+					}
+				}
+			}
+
+			.menu {
+				background: #9400D3;
+				padding-top: 5px;
+				padding-bottom: 5px;
+
+				.nav.clk {
+					width: 45px;
+					height: 20px;
+					background: url('../img/burger.png') 10px 1px no-repeat;
+					content: "";
+					float: left;
+				}
+
+				ul{
+					width: 270px;
+					padding-left: 0px;
+					margin: 0px;
+					font-size: 12px;
+					display: inline-block;
+
+					li{
+						display: inline-block;
+						margin-left: 10px;
+
+						a{
+							text-decoration: none;
+							color: white;
+						}
+
+						img{
+							width: 10px;
+							margin-left: 10px;
+						}
+					}
+
+					.menu-right{
+						float: right;
 					}
 				}
 			}
